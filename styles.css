@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+header {
+  background-color: cyan; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  text-decoration: none;
+}
+
+
+#city-input {
+  padding-top: 10px;
+  padding-left: 10px;
+}
