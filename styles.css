@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: cyan; 
+  background-color: #99fadc;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,8 +20,12 @@ ul {
   text-decoration: none;
 }
 
-
 #city-input {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#weather {
   padding-top: 10px;
   padding-left: 10px;
 }
