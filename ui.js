@@ -8,9 +8,12 @@ class UI {
   populateUI(data) {
     this.uiContainer.innerHTML = `
       <div>
-        <h5>${data.name}</h5>
-        <h6>High of ${data.main.temp_max}. Low of ${data.main.temp_min}.</h6>
-        <p>Weather conditions: ${data.weather[0].description}</p>
+      <div id="forecast-card">
+        <h5 id="city">${data.name}</h5>
+        <h6 id="temperature">High of ${Math.round(data.main.temp_max)}, Low of ${Math.round(data.main.temp_min)}</h6>
+        <p id="weather-conditions">Weather conditions: ${data.weather[0].description}</p>
+        </div>
+        <button id="save-city-btn" class="btn">Save City</button>
       </div>
     `;
   }
